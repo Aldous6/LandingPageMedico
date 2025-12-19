@@ -1,42 +1,134 @@
 # Landing Page (Ficticia) — Dr. Ricardo Mendoza | Cardiólogo
 
-Landing page ficticia diseñada para **alta conversión** (enfoque UI/UX) en el sector salud.  
-Construida con **HTML5 + CSS3 + Vanilla JavaScript** (sin librerías externas).
+Landing page ficticia diseñada con enfoque **UI/UX orientado a conversión** para el sector salud.  
+Construida únicamente con **HTML5, CSS3 y Vanilla JavaScript** (sin frameworks ni librerías externas).
 
->  Proyecto demo/portafolio: el doctor, testimonios y datos mostrados son ficticios.  
-> Las imágenes se cargan desde URLs públicas (Unsplash) y el mapa usa un embed de Google Maps.
-
----
-
-## Objetivo del proyecto
-
-Crear una landing moderna y confiable para un consultorio médico con:
-- Mensaje claro de valor (hero)
-- CTA visible para agendar
-- Señales de confianza (social proof)
-- Diseño responsive + animaciones sutiles
-- Modo claro/oscuro
-- Secciones típicas de conversión: servicios, testimonios, ubicación y contacto
+>  Proyecto demo / portafolio  
+> El doctor, testimonios, datos y citas mostradas son ficticios.  
+> Las imágenes provienen de Unsplash y el mapa utiliza Google Maps Embed.
 
 ---
 
-## Features principales
+##  Objetivo del proyecto
 
-### UI/UX
-- **Header sticky** con efecto *glassmorphism* al hacer scroll.
-- **Hero** con CTA primario/secundario + stats de confianza.
-- **Cards** de servicios con iconografía en SVG.
-- **Testimonials marquee** (loop infinito) que se pausa al hover.
-- **Mapa responsivo** (iframe full-bleed) con mejor altura y presencia en desktop.
-- **Modo oscuro** aplicando variables CSS y filtros en el mapa.
+Diseñar una landing page profesional que simule un **sitio real de un médico especialista**, priorizando:
+
+- Confianza y credibilidad
+- Claridad en la propuesta de valor
+- Experiencia de usuario fluida
+- Conversión sin presión agresiva
+
+El proyecto demuestra **criterio de producto**, no solo maquetación visual.
+
+---
+
+## Tipos de Landing Pages (Contexto Teórico)
+
+En diseño web y marketing digital, las landing pages se clasifican según su objetivo principal:
+
+### 1️⃣ Lead Generation Landing Page
+**Objetivo:** Capturar datos del usuario (correo, teléfono).  
+**Uso:** Descargas, newsletters, promociones.
+
+- Formularios protagonistas  
+- Contenido mínimo  
+- CTA único y directo  
+
+---
+
+### 2️⃣ Click-Through Landing Page
+**Objetivo:** Preparar al usuario para una acción posterior  
+(ej. WhatsApp, agenda externa, checkout).
+
+- Storytelling corto  
+- Beneficios claros  
+- CTA de redirección  
+
+---
+
+### 3️⃣ Service / Product Landing Page
+**Objetivo:** Explicar y vender un servicio específico.
+
+- Propuesta de valor clara  
+- Beneficios y proceso  
+- CTA persistente  
+- Pruebas de confianza  
+
+---
+
+### 4️⃣ Brand / Authority Landing Page
+**Objetivo:** Construir credibilidad y autoridad profesional.
+
+- Diseño limpio y sobrio  
+- Lenguaje empático  
+- Señales de legitimidad  
+
+---
+
+##  Tipo de Landing Page Elegido
+
+Este proyecto utiliza una **combinación estratégica de:**
+
+> **Service Landing Page + Authority Landing Page**
+
+### ¿Por qué este enfoque?
+
+En el sector salud, la conversión **no es impulsiva**.  
+Antes de agendar una cita, el usuario necesita:
+
+- Confianza  
+- Claridad  
+- Profesionalismo  
+- Seguridad emocional  
+
+Por ello, esta landing page fue diseñada para:
+
+### ✅ Explicar el servicio
+- Qué hace el doctor  
+- Qué problemas atiende  
+- Cómo es el proceso de consulta  
+
+### ✅ Construir autoridad
+- Testimonios (social proof)  
+- Indicadores de disponibilidad  
+- Diseño sobrio y profesional  
+
+### ✅ Facilitar la conversión
+- CTA visibles pero no agresivos  
+- Flujo de lectura natural  
+- Información suficiente antes del contacto  
+
+---
+
+## Decisiones clave de UX
+
+- **Hero empático**, no promocional  
+- **CTA persistente** pero respetuoso  
+- **Testimonials en marquee** (confianza pasiva)  
+- **Modo oscuro** para confort visual  
+- **Animaciones suaves** con `IntersectionObserver`  
+- **Header con glassmorphism** al hacer scroll  
+
+---
+
+## Features Técnicas
+
+### UI / UX
+- Header sticky con efecto glass
+- Hero con CTA principal y secundario
+- Cards de servicios con SVG
+- Marquee infinito de testimonios (pausa al hover)
+- Mapa responsivo (iframe)
+- Diseño completamente responsive
+- Light / Dark Mode con variables CSS
 
 ### JavaScript (Vanilla)
-- **Light/Dark Mode** con persistencia en `localStorage` + detección de preferencia del sistema.
-- **Menú móvil hamburguesa** con bloqueo de scroll cuando está abierto.
-- **Animaciones al scroll** usando `IntersectionObserver` (performance-friendly).
-- **Toast de urgencia/social proof** con datos ficticios realistas (aparece y se repite).
-- **Smooth scroll** para anchors internos.
-- **Form handling básico** (demo: muestra un `alert` y resetea el formulario).
+- Persistencia de tema con `localStorage`
+- Menú móvil con bloqueo de scroll
+- Animaciones al hacer scroll
+- Toast de urgencia / social proof (datos ficticios)
+- Smooth scroll
+- Manejo básico de formulario (demo)
 
 ---
 
