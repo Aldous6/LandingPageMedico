@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dr. Ricardo Mendoza - Cardiólogo especialista con más de 20 años de experiencia. Atención personalizada y tecnología de vanguardia para el cuidado de tu corazón.">
+    <meta name="keywords" content="cardiólogo, cardiología, ecocardiograma, salud cardiovascular, cuidado del corazón">
+    <title>Dr. Ricardo Mendoza | Cardiólogo Especialista</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Physician",
+        "name": "Dr. Ricardo Mendoza",
+        "description": "Cardiólogo especialista con más de 20 años de experiencia en diagnóstico y tratamiento de enfermedades cardiovasculares.",
+        "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400",
+        "telephone": "+52-55-1234-5678",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Av. Reforma 505, Piso 12",
+            "addressLocality": "Ciudad de México",
+            "addressRegion": "CDMX",
+            "postalCode": "06600",
+            "addressCountry": "MX"
+        },
+        "medicalSpecialty": "Cardiology",
+        "priceRange": "$$$"
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header__container">
+            <a href="#" class="header__logo">
+                <svg class="header__logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                </svg>
+                <span>Dr. Mendoza</span>
+            </a>
+            
+            <nav class="header__nav" id="nav">
+                <ul class="header__nav-list">
+                    <li><a href="#servicios" class="header__nav-link">Servicios</a></li>
+                    <li><a href="#testimonios" class="header__nav-link">Testimonios</a></li>
+                    <li><a href="#ubicacion" class="header__nav-link">Ubicación</a></li>
+                    <li><a href="#contacto" class="header__nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header__actions">
+                <button class="header__theme-toggle" id="themeToggle" aria-label="Cambiar tema">
+                    <svg class="header__theme-icon header__theme-icon--light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"/>
+                        <line x1="12" y1="1" x2="12" y2="3"/>
+                        <line x1="12" y1="21" x2="12" y2="23"/>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                        <line x1="1" y1="12" x2="3" y2="12"/>
+                        <line x1="21" y1="12" x2="23" y2="12"/>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                    </svg>
+                    <svg class="header__theme-icon header__theme-icon--dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                </button>
+                <button class="header__menu-toggle" id="menuToggle" aria-label="Abrir menú">
+                    <span class="header__menu-bar"></span>
+                    <span class="header__menu-bar"></span>
+                    <span class="header__menu-bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <div class="hero__badge animate-on-scroll">
+                        <span class="hero__badge-dot"></span>
+                        <span>El Dr. Mendoza está aceptando pacientes nuevos</span>
+                    </div>
+                    <h1 class="hero__title animate-on-scroll">
+                        Cuidado cardiovascular <span class="hero__title-accent">de excelencia</span>
+                    </h1>
+                    <p class="hero__description animate-on-scroll">
+                        Más de 20 años dedicados a proteger lo más importante: tu corazón. 
+                        Tecnología de vanguardia y atención personalizada para cada paciente.
+                    </p>
+                    <div class="hero__cta animate-on-scroll">
+                        <a href="#contacto" class="btn btn--primary">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                <line x1="16" y1="2" x2="16" y2="6"/>
+                                <line x1="8" y1="2" x2="8" y2="6"/>
+                                <line x1="3" y1="10" x2="21" y2="10"/>
+                            </svg>
+                            Agendar Cita
+                        </a>
+                        <a href="#testimonios" class="btn btn--secondary">
+                            Leer Historias de Pacientes
+                        </a>
+                    </div>
+                    <div class="hero__stats animate-on-scroll">
+                        <div class="hero__stat">
+                            <span class="hero__stat-number">20+</span>
+                            <span class="hero__stat-label">Años de experiencia</span>
+                        </div>
+                        <div class="hero__stat">
+                            <span class="hero__stat-number">15,000+</span>
+                            <span class="hero__stat-label">Pacientes atendidos</span>
+                        </div>
+                        <div class="hero__stat">
+                            <span class="hero__stat-number">98%</span>
+                            <span class="hero__stat-label">Satisfacción</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__image animate-on-scroll">
+                    <div class="hero__image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&h=700&fit=crop" alt="Dr. Ricardo Mendoza, Cardiólogo Especialista" loading="eager">
+                    </div>
+                    <div class="hero__image-decoration"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="servicios">
+            <div class="services__container">
+                <div class="services__header animate-on-scroll">
+                    <span class="services__label">Nuestros Servicios</span>
+                    <h2 class="services__title">Atención integral para tu salud cardiovascular</h2>
+                    <p class="services__description">
+                        Ofrecemos diagnósticos precisos y tratamientos personalizados utilizando 
+                        la tecnología más avanzada en cardiología.
+                    </p>
+                </div>
+                
+                <div class="services__grid">
+                    <article class="service-card animate-on-scroll">
+                        <div class="service-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Ecocardiograma</h3>
+                        <p class="service-card__description">
+                            Evaluación completa de la estructura y función del corazón mediante ultrasonido de alta resolución.
+                        </p>
+                        <a href="#contacto" class="service-card__link">
+                            Más información
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                                <polyline points="12 5 19 12 12 19"/>
+                            </svg>
+                        </a>
+                    </article>
+                    
+                    <article class="service-card animate-on-scroll">
+                        <div class="service-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Cuidado Preventivo</h3>
+                        <p class="service-card__description">
+                            Programas personalizados de prevención cardiovascular para mantener tu corazón saludable por más tiempo.
+                        </p>
+                        <a href="#contacto" class="service-card__link">
+                            Más información
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                                <polyline points="12 5 19 12 12 19"/>
+                            </svg>
+                        </a>
+                    </article>
+                    
+                    <article class="service-card animate-on-scroll">
+                        <div class="service-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Holter 24 Horas</h3>
+                        <p class="service-card__description">
+                            Monitoreo continuo del ritmo cardíaco para detectar arritmias y otras anomalías durante tu día normal.
+                        </p>
+                        <a href="#contacto" class="service-card__link">
+                            Más información
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                                <polyline points="12 5 19 12 12 19"/>
+                            </svg>
+                        </a>
+                    </article>
+                    
+                    <article class="service-card animate-on-scroll">
+                        <div class="service-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14 2 14 8 20 8"/>
+                                <line x1="16" y1="13" x2="8" y2="13"/>
+                                <line x1="16" y1="17" x2="8" y2="17"/>
+                                <polyline points="10 9 9 9 8 9"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Prueba de Esfuerzo</h3>
+                        <p class="service-card__description">
+                            Evaluación de la respuesta cardíaca durante el ejercicio para detectar problemas de circulación coronaria.
+                        </p>
+                        <a href="#contacto" class="service-card__link">
+                            Más información
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                                <polyline points="12 5 19 12 12 19"/>
+                            </svg>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials" id="testimonios">
+            <div class="testimonials__container">
+                <div class="testimonials__header animate-on-scroll">
+                    <span class="testimonials__label">Testimonios</span>
+                    <h2 class="testimonials__title">Lo que dicen nuestros pacientes</h2>
+                </div>
+                
+                <div class="testimonials__marquee">
+                    <div class="testimonials__track" id="testimonialTrack">
+                        <!-- Testimonials will be duplicated by JS for infinite scroll -->
+                        <div class="testimonial-card">
+                            <div class="testimonial-card__stars">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            </div>
+                            <p class="testimonial-card__text">"El Dr. Mendoza me salvó la vida. Su diagnóstico temprano de mi condición cardíaca permitió un tratamiento oportuno. Eternamente agradecida."</p>
+                            <div class="testimonial-card__author">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" alt="María González">
+                                <div>
+                                    <strong>María González</strong>
+                                    <span>Paciente desde 2019</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-card">
+                            <div class="testimonial-card__stars">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            </div>
+                            <p class="testimonial-card__text">"Profesionalismo excepcional. Me explicó cada paso de mi tratamiento con paciencia y claridad. Lo recomiendo ampliamente."</p>
+                            <div class="testimonial-card__author">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop" alt="Roberto Sánchez">
+                                <div>
+                                    <strong>Roberto Sánchez</strong>
+                                    <span>Paciente desde 2021</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-card">
+                            <div class="testimonial-card__stars">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            </div>
+                            <p class="testimonial-card__text">"Después de años de preocupación, finalmente encontré un cardiólogo que me escucha. El consultorio es moderno y el trato es excelente."</p>
+                            <div class="testimonial-card__author">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop" alt="Ana Martínez">
+                                <div>
+                                    <strong>Ana Martínez</strong>
+                                    <span>Paciente desde 2020</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-card">
+                            <div class="testimonial-card__stars">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            </div>
+                            <p class="testimonial-card__text">"Mi familia entera se atiende con el Dr. Mendoza. Su dedicación y conocimiento nos dan la tranquilidad que necesitamos."</p>
+                            <div class="testimonial-card__author">
+                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop" alt="Carlos Ruiz">
+                                <div>
+                                    <strong>Carlos Ruiz</strong>
+                                    <span>Paciente desde 2018</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location Section -->
+        <section class="location" id="ubicacion">
+            <div class="location__container">
+                <div class="location__info animate-on-scroll">
+                    <span class="location__label">Ubicación</span>
+                    <h2 class="location__title">Visítanos en nuestro consultorio</h2>
+                    <p class="location__description">
+                        Ubicados en el corazón de la Ciudad de México, con fácil acceso 
+                        y estacionamiento disponible para tu comodidad.
+                    </p>
+                    
+                    <div class="location__details">
+                        <div class="location__detail">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <div>
+                                <strong>Dirección</strong>
+                                <span>Av. Reforma 505, Piso 12<br>Col. Cuauhtémoc, CDMX 06600</span>
+                            </div>
+                        </div>
+                        
+                        <div class="location__detail">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                            <div>
+                                <strong>Horarios</strong>
+                                <span>Lun - Vie: 9:00 AM - 7:00 PM<br>Sáb: 9:00 AM - 2:00 PM</span>
+                            </div>
+                        </div>
+                        
+                        <div class="location__detail">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <div>
+                                <strong>Teléfono</strong>
+                                <span>+52 55 1234 5678</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="tel:+525512345678" class="btn btn--primary location__cta">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        Llamada Rápida
+                    </a>
+                </div>
+                
+                <div class="location__map animate-on-scroll">
+                    <!-- 
+                        Contenedor responsivo del mapa con aspect-ratio para evitar saltos de diseño.
+                        En modo oscuro, aplicamos filtros CSS para invertir los colores del mapa.
+                    -->
+                    <div class="location__map-wrapper">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.661130086!2d-99.16869032412795!3d19.427023281868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff35f5bd1563%3A0x6c366f0e2de02ff7!2sAv.%20Paseo%20de%20la%20Reforma%20505%2C%20Cuauht%C3%A9moc%2C%2006500%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX%2C%20Mexico!5e0!3m2!1sen!2sus!4v1703000000000!5m2!1sen!2sus"
+                            width="600" 
+                            height="450" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Ubicación del consultorio del Dr. Mendoza">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contacto">
+            <div class="contact__container">
+                <div class="contact__header animate-on-scroll">
+                    <span class="contact__label">Contacto</span>
+                    <h2 class="contact__title">Agenda tu cita hoy</h2>
+                    <p class="contact__description">
+                        Completa el formulario y nos pondremos en contacto contigo en menos de 24 horas.
+                    </p>
+                </div>
+                
+                <form class="contact__form animate-on-scroll" id="contactForm">
+                    <div class="contact__form-group">
+                        <label for="name" class="contact__label-input">Nombre completo</label>
+                        <input type="text" id="name" name="name" class="contact__input" placeholder="Tu nombre" required>
+                    </div>
+                    
+                    <div class="contact__form-row">
+                        <div class="contact__form-group">
+                            <label for="email" class="contact__label-input">Correo electrónico</label>
+                            <input type="email" id="email" name="email" class="contact__input" placeholder="correo@ejemplo.com" required>
+                        </div>
+                        <div class="contact__form-group">
+                            <label for="phone" class="contact__label-input">Teléfono</label>
+                            <input type="tel" id="phone" name="phone" class="contact__input" placeholder="+52 55 1234 5678">
+                        </div>
+                    </div>
+                    
+                    <div class="contact__form-group">
+                        <label for="service" class="contact__label-input">Servicio de interés</label>
+                        <select id="service" name="service" class="contact__select" required>
+                            <option value="">Selecciona un servicio</option>
+                            <option value="consulta">Consulta General</option>
+                            <option value="ecocardiograma">Ecocardiograma</option>
+                            <option value="holter">Holter 24 Horas</option>
+                            <option value="esfuerzo">Prueba de Esfuerzo</option>
+                            <option value="preventivo">Cuidado Preventivo</option>
+                        </select>
+                    </div>
+                    
+                    <div class="contact__form-group">
+                        <label for="message" class="contact__label-input">Mensaje (opcional)</label>
+                        <textarea id="message" name="message" class="contact__textarea" placeholder="Cuéntanos sobre tu caso..." rows="4"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn--primary contact__submit">
+                        Enviar Solicitud
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"/>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__main">
+                <div class="footer__brand">
+                    <a href="#" class="footer__logo">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                        <span>Dr. Mendoza</span>
+                    </a>
+                    <p>Cuidando corazones desde 2004</p>
+                </div>
+                
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                            <rect x="2" y="9" width="4" height="12"/>
+                            <circle cx="4" cy="4" r="2"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2025 Dr. Ricardo Mendoza. Todos los derechos reservados.</p>
+                <div class="footer__links">
+                    <a href="#">Aviso de Privacidad</a>
+                    <a href="#">Términos y Condiciones</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <div class="toast__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+        </div>
+        <div class="toast__content">
+            <strong class="toast__title">Nueva cita agendada</strong>
+            <span class="toast__message" id="toastMessage"></span>
+        </div>
+        <button class="toast__close" id="toastClose" aria-label="Cerrar notificación">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="6" x2="6" y2="18"/>
+                <line x1="6" y1="6" x2="18" y2="18"/>
+            </svg>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
